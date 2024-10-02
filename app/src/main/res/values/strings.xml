@@ -1,0 +1,66 @@
+<resources>
+    <!--    Splash Screen Content Start -->
+    <string name="app_name">AdvanceBookings</string>
+    <string name="app_logo"> A.Bookings</string>
+    <string name="app_header_text">"Pro. Time. Booking"</string>
+    <!--    Splash Screen Content End -->
+
+    <!--    Home Screen Content Start -->
+    <string name="app_home_header">Effortlessly manage your schedule and book appointments in just a few taps! Whether you’re a client looking to book time or a provider managing availability, we’ve made it simple and convenient for you to stay on top of your day.</string>
+    <string-array name="app_home_detail_list">
+        <item>View available slots</item>
+        <item>Schedule meetings in 15-minute increments</item>
+        <item>Reserve appointments 24 hours ahead</item>
+        <item>Manage your appointments on the go</item>
+    </string-array>
+    <string name="app_home_footer">Your time, perfectly organized. Let’s get started!</string>
+    <string name="button_client_text">Get Started Client</string>
+    <string name="button_provider_text">Get Started Provider</string>
+    <string name="progress_loading_text">"Loading…"</string>
+    <!--    Home Screen Content End -->
+
+    <!--    Top App Bar Label Content Start-->
+    <string name="help">Help</string>
+    <!--    Top App Bar Label Content End -->
+
+    <!--     Help Dialog Box Content Start -->
+    <string name="help_dialog_button_label">OK</string>
+    <string name="help_dialog_content">To schedule an appointment, simply view the available time slots and select a 15-minute session that works for you. Please note that all appointments must be reserved at least 24 hours in advance. Manage your bookings easily and stay on top of your schedule. If you need further assistance, feel free to contact support.</string>
+    <!--    Help Dialog Box Content End -->
+
+    <!--    Info Screen Content Start -->
+    <string name="info_header">Plan Ahead with Ease – Book Your Appointments in Advance</string>
+    <string-array name="info_detail_list">
+        <item>Flexible Scheduling: Browse and book available time slots based on your convenience.</item>
+        <item>15-Minute Sessions: All appointments are set in 15-minute increments for precision.</item>
+        <item>24-Hour Reservation Requirement: Ensure you book your appointment at least 24 hours in advance.</item>
+        <item>Manage Your Appointments: View, reschedule, or cancel your bookings with ease.</item>
+        <item>Real-time Updates: Get instant notifications and reminders for your upcoming appointments.</item>
+    </string-array>
+    <string-array name="info_footer">
+        <item>Stay Organized, Stay Ahead!</item>
+        <item>Your appointments, planned to perfection. For any help, reach out to our support team.</item>
+    </string-array>
+    <!--    Info Screen Content End -->
+
+    <!--    Provider Screen Content Start-->
+    <string name="provide_pick_day">Pick Day</string>
+    <string name="provide_pick_time_start">Pick Start Time</string>
+    <string name="provide_pick_time_end">Pick End Time </string>
+    <string-array name="Provider_selected_work_day_time">
+        <item>Work Day:</item>
+        <item>Start Time:</item>
+        <item>End Time:</item>
+    </string-array>
+    <!--    Provider Screen Content End -->
+
+    <!--    Client Screen Content Start-->
+    <string name="confirm_button_label">Confirm Reservation</string>
+    <string name="available_time_slot">Available time slot</string>
+    <string name="confirm_message">Appointment booked</string>
+    <string name="booking_message">Select a time from available slot</string>
+    <string name="booking_message_wrong">Please book your appointment at least 24 hours in advance. </string>
+    <string name="select_day">Select Day</string>
+    <!--    Client Screen Content End-->
+
+</resources>
