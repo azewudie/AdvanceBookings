@@ -65,7 +65,7 @@ class ClientScreenViewModel @Inject constructor(
                     if (dataStoreHelper.getClientReserveRealTime().isNotEmpty()) {
                         val parsedDateTime: LocalDateTime =
                             LocalDateTime.parse(dataStoreHelper.getClientReserveRealTime())
-                        val bookingPlusThirtyMinutes = parsedDateTime.plusMinutes(1)
+                        val bookingPlusThirtyMinutes = parsedDateTime.plusMinutes(30)
                         val currentDateTime = LocalDateTime.now()
                         if (
                             currentDateTime.isAfter(bookingPlusThirtyMinutes) &&
