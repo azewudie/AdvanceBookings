@@ -1,4 +1,5 @@
 # AdvanceBookings
+ Advance Bookings lets users schedule appointments or reservations in advance with real-time availability and a simple, flexible interface.
 ## Build tools & versions used
 
     - VERSION_17
